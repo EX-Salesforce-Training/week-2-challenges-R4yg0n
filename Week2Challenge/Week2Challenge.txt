@@ -1,0 +1,12 @@
+public abstract class Week2Challenge {
+    //abstract method
+    public abstract void MethodImplementation();
+
+    //virtual method
+    public virtual void MethodOverride(string strOverride){
+        System.debug(strOverride);
+    }
+
+    /* public string myString = 'This should be overriden!';
+    MethodOverride(myString); */
+}

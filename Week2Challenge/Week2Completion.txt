@@ -1,0 +1,16 @@
+public class Week2Completion extends Week2Challenge{
+    //public void Week2Challenge w2c_Complete = new Week2Challenge();
+    public Week2Completion(){this(1);}
+    public Week2Completion(integer count){this(count, 'Hello Harvey');}
+    public Week2Completion(integer count, string myString){}
+
+
+    public override void MethodImplementation(){
+        System.debug('This method is now defined here!');
+    }
+
+    public override void MethodOverride(string newString){System.debug(newString);}
+
+    //w2c_Complete.myString = 'This method has been overriden';
+    //w2c_Complete.MethodOverride(w2c_Complete.myString);
+}
